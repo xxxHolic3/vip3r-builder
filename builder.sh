@@ -52,7 +52,7 @@ lb config	--binary-images iso-hybrid\
 			--debian-installer-gui false\
 			--win32-loader false\
 			--iso-application vip3r-OS_1.1beta\
-			--iso-publisher https://github.com/xxxHolic3\
+			--iso-publisher https://github.com/xxxHolic3/
 			--iso-volume vip3r-OS_1.1beta-live
 
 #added Mate desktop manager
