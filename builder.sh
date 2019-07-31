@@ -4,8 +4,8 @@ echo "
 ==============================================
 |          VIP3r-OS Builder Script           |
 |                                            |
-|   Version  : 1.1.0 Beta                    |
-|   Codename : Venom                         |
+|   Version  : 2.4 Beta                      |
+|   Codename : benatar                       |
 |   Author   : vip3r                         |
 |   Desc.    : This script for building      |
 |              VIP3r-OS based on debian      |
@@ -27,7 +27,7 @@ else
 	echo -e "Done...\n"
 	echo -e "Puts your modifications file to vip3r-material directory\n"
 fi
-#================================== end step 1 ====================================
+#================================== end step 1 =====================================
 
 #step 2 - build
 #declarate pwd to variable
