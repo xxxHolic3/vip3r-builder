@@ -15,6 +15,21 @@ echo "
 "
 echo -e "This script must be run with sudo/root permissions\n"
 
+#step 1 - pre
+echo -e "Checking vip3r-material directory..."
+if [-d "vip3r-material/"]
+then
+	echo -e "directory found...\n"
+else
+	echo -e "directory does not exist...\n"
+	echo -e "create vip3r-material directory...\n"
+	mkdir -p viper-material/{desktop-config, backgrounds, scripts, icons, hooks, bootloaders, misc64}
+	echo -e "Done...\n"
+	echo -e "Puts your modifications file to vip3r-material directory\n"
+fi
+#================================== end step 1 ====================================
+
+#step 2 - build
 #declarate pwd to variable
 lct="$(pwd)"
 
