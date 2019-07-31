@@ -46,6 +46,7 @@ echo task-mate-desktop > $lct/vip3r/config/package-lists/desktop.list.chroot
 #added default tools installed
 echo	gparted\
 		vlc\
+		firefox-esr\
 		squashfs-tools\
 		syslinux\
 		syslinux-common\
@@ -64,8 +65,8 @@ echo	gparted\
 		apt-transport-https\
 		dirmngr\
 		firmware-linux\
-		nmap\
-		wireshark\
-		aircrack-ng\
 		> $lct/vip3r/config/package-lists/package-list.chroot
+
+#copying meta-vip3r file from vip3r-material directory
+cp $lct/vip3r-material/metapackages/metavip3r-list.chroot > $lct/vip3r/config/package-lists/metavip3r-list.chroot
 
