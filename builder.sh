@@ -64,7 +64,7 @@ lb config	--binary-images iso-hybrid\
 			--backports false\
 			--cache true\
 			--apt-recommend true\
-			--bootappend-live "boot=live username=root hostname=paranoid noautomount"
+			--bootappend-live "boot=live hostname=paranoid noautomount"
 			--debian-installer-gui live\
 			--win32-loader false\
 			--iso-application Paranoid-OS_1.0beta\
