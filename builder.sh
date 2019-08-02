@@ -1,5 +1,18 @@
 #!/bin/bash
 clear
+
+echo"
+                                                               o8o        .o8  
+                                                               `"'       "888  
+oo.ooooo.   .oooo.   oooo d8b  .oooo.   ooo. .oo.    .ooooo.  oooo   .oooo888  
+ 888' `88b `P  )88b  `888""8P `P  )88b  `888P"Y88b  d88' `88b `888  d88' `888  
+ 888   888  .oP"888   888      .oP"888   888   888  888   888  888  888   888  
+ 888   888 d8(  888   888     d8(  888   888   888  888   888  888  888   888  
+ 888bod8P' `Y888""8o d888b    `Y888""8o o888o o888o `Y8bod8P' o888o `Y8bod88P" 
+ 888                                                                           
+o888o 
+
+"
 echo "
 ==============================================
 |          Paranoid-OS Builder Script        |
@@ -10,6 +23,7 @@ echo "
 |   Desc.    : This script for building      |
 |              Paranoid-OS based on debian   |
 |              unstable using live-build.    |
+|                                            |
 ==============================================
 
 "
