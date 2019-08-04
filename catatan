@@ -1,0 +1,36 @@
+[*] Menambahkan repositori pihak ketiga
+
+tambahkan di file config/archives/your-repository.list.chroot
+ex. config/archives/pentest-repo.list.chroot
+di dalam file pentest-repo.list.chroot isikan alamat repository
+ex. deb http://kartolo.sby.datautama.net.id/parrot main contrib non-free
+
+agar repository pentest-repo aktif saat mode live
+copykan file config/archives/pentest-repo.list.chroot menjadi config/archives/pentest-repo.binary
+ini akan membuat repository pentest-repo aktif saat mode live dan di tempatkan di direktori /etc/apt/sources.list.d/
+
+penting :
+file kunci gpg untuk repository pihak ketiga harus disertakan.
+tempatkan kunci gpg didalam folder yang sama dengan file alamat repository
+ex:
+repo:
+config/archives/pentest-repo.list.chroot
+config/archives/pentest-repo.list.binary
+kunci gpg:
+congig/archives/pentest-repo.key.chroot
+config/archives/pentest-repo.key.binary
+=====================================================================================================================================
+
+[*] Menentukan Desktop Environment default
+
+echo task-xfce-desktop > config/package-lists/desktop.list.chroot
+file dekstop.list.chroot berisi desktop yang akan diinstall. contoh diatas akan menginstall desktop xfce
+ganti sesuai dengan desktop yang akan diinstall
+ex:
+echo echo task-mate-desktop > config/package-lists/desktop.list.chroot
+echo task-gnome-desktop > config/package-lists/desktop.list.chroot
+echo task-kde-desktop > config/package-lists/desktop.list.chroot
+=====================================================================================================================================
+
+[*]
+
